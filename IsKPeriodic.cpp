@@ -31,7 +31,7 @@ bool isKPeriodic(const string& txt, int k)
     setlocale(LC_ALL, "");
     if (k <= 0) 
     {
-        cout<< "ñòðîêà íå ìîæåò áûòü <= 0" << k << endl << endl;
+        cout<< "ÑÑ‚Ñ€Ð¾ÐºÐ° Ð½Ðµ Ð¼Ð¾Ð¶ÐµÑ‚ Ð±Ñ‹Ñ‚ÑŒ ÐºÑ€Ð°Ñ‚Ð½Ð¾ 0" << k << endl << endl;
        
         return false;
     }
@@ -71,13 +71,13 @@ bool isKPeriodic(const string& txt, int k)
     if (k * c == txt.size() && k != txt.size())
     {
         cout << txt << endl;
-        cout << "ñòðîêà êðàòíà ÷èñëó " << k << endl << endl;
+        cout << "Ð´Ð°Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ° ÐºÑ€Ð°Ñ‚Ð½Ð° " << k << endl << endl;
         return true;
     }
     else 
     {
         cout << txt << endl;
-        cout << "ñòðîêà íå êðàòíà ÷èñëó " << k << endl << endl;
+        cout << "Ð´Ð°Ð½Ð°Ñ ÑÑ‚Ñ€Ð¾ÐºÐ° Ð½Ðµ ÐºÑ€Ð°Ñ‚Ð½Ð°  " << k << endl << endl;
         return false;
     }
 }
